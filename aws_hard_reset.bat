@@ -1,0 +1,1 @@
+aws s3 rm s3://femme.bornino.net --recursive
