@@ -1,0 +1,79 @@
+:root {
+    --deep-purple: #5f4b8b;
+    --lavender: #c7b8ff;
+    --soft-pink: #f3d7ff;
+    --ivory: #fff8ff;
+}
+
+body {
+    background: linear-gradient(135deg, var(--ivory), var(--soft-pink));
+    color: #2c1f4a;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgba(95, 75, 139, 0.94);
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+.hero {
+    background: linear-gradient(180deg, rgba(95, 75, 139, 0.95), rgba(199, 184, 255, 0.85));
+    border-radius: 1.25rem;
+    color: #fff;
+}
+
+.section-card {
+    border: 1px solid rgba(95, 75, 139, 0.18);
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 10px 30px rgba(95, 75, 139, 0.12);
+}
+
+.section-card h2 {
+    color: var(--deep-purple);
+}
+
+.section-title {
+    letter-spacing: 0.08em;
+    color: var(--deep-purple);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.bg-lavender {
+    background: var(--lavender) !important;
+}
+
+.bg-soft-pink {
+    background: var(--soft-pink) !important;
+}
+
+.text-purple {
+    color: var(--deep-purple) !important;
+}
+
+.navbar .nav-link,
+.navbar .dropdown-item {
+    text-decoration: none !important;
+}
+
+.navbar-nav {
+    list-style: none;
+    flex-wrap: nowrap;
+}
+
+.navbar .dropdown-menu {
+    min-width: 12rem;
+}
+
+.nav-item.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-link {
+    white-space: nowrap;
+}
